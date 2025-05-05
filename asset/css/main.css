@@ -1,5 +1,6 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'roboto';
+    font-weight: 300;
     margin: auto 20px;
     padding: 0;
 }
@@ -174,7 +175,7 @@ body {
     padding: 0;
 }
 
-.orders_list {
+.others_list_items {
     font-size: 14px;
 }
 
