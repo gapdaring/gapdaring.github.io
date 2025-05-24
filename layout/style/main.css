@@ -1,9 +1,16 @@
+@font-face {
+    font-family: defaultFont;
+    src: url(/asset/font/Cantarell.ttf);
+}
+
 html {
     scroll-behavior: smooth;
 }
 
+
 body {
-    font-family: 'Times New Roman', Times, serif;
+    background-color: #eeeeee;
+    font-family: defaultFont;
     margin: auto 20px;
     padding: 0;
 }
@@ -16,6 +23,7 @@ body {
 
 .header_title {
     font-size: 32px;
+
 }
 
 .header_menu_items {
