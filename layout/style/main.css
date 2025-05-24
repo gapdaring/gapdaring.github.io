@@ -9,7 +9,6 @@ html {
 
 
 body {
-    background-color: #eeeeee;
     font-family: defaultFont;
     margin: auto 20px;
     padding: 0;
@@ -23,7 +22,6 @@ body {
 
 .header_title {
     font-size: 32px;
-
 }
 
 .header_menu_items {
@@ -242,6 +240,7 @@ body {
 @media screen and (max-width: 480px) {
     .main_sidebar_content {
         grid-template-columns: repeat(1, auto);
+        min-width: 0;
     }
 
     .content_label_title {
