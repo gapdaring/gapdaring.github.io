@@ -1,54 +1,63 @@
 @font-face {
     font-family: defaultFont;
-    src: url(/asset/font/Cantarell.ttf);
+    src: url(/asset/font/AncizarSerif.ttf)
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
-
-body {
+html, body {
     font-family: defaultFont;
-    margin: auto 20px;
+    scroll-behavior: smooth;
     padding: 0;
+    margin: 0;
+}
+
+h1, h2, a {
+    text-transform: capitalize;
 }
 
 /* Header */
 .header {
-    padding: 5px;
-    margin-bottom: 10px;
+    padding: 10px;
 }
 
-.header_title {
+.headerContentTitle {
     font-size: 32px;
+    margin: 0 0 10px 0;
 }
 
-.header_menu_items {
-    font-size: 14px ;
-    margin: 0 5px 0 0;
+.headerContentMenuItem {
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-right: 10px;
+}
+
+.headerEventImages {
+    width: 100%;
+    height: auto;
+}
+
+.headerEventItem {
+    position: absolute;
+    color: white;
+    top: 10px;
+    right: 10px;
 }
 
 /* Main */
 .main_content {
     display: flex;
     flex-direction: row;
+    gap: 10px;
+    padding: 10px;
 }
 
 .main_post_content {
     width: 100%;
 }
 
-.post_content_search {
-    text-align: center;
-}
-
 .input_search {
-    width: calc(100% - 25px);
-    height: 26px;
+    width: calc(100% - 7px);
+    height: 30px;
     outline: none;
-    margin: 10px 0;
-    padding-left: 10px;
 }
 
 .content_list {
@@ -57,7 +66,6 @@ body {
     height: auto;
     gap: 10px;
     padding: 0;
-    margin: 5px;
 }
 
 .content_list_items {
