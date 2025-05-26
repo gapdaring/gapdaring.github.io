@@ -1,7 +1,7 @@
 // Search Funtion
 function searchFunction() {
-    let value = document.getElementById("inputSearch").value;
-    let ul = document.querySelector(".content_list");
+    let value = document.getElementById("postSearchInput").value;
+    let ul = document.querySelector(".mainContentPostArticleList");
     let li = ul.getElementsByTagName("li");
 
     for( let i = 0; i < li.length; i++) {

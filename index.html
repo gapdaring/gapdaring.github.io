@@ -22,121 +22,140 @@
             <div class="headerContentMenu">
                 <a href="/index.html" class="headerContentMenuItem">beranda</a>
                 <a href="/pages/c++.html" class="headerContentMenuItem">c++</a>
-                <a href="/pages/test.txt" class="headerContentMenuItem">anime</a>
+                <a href="/pages/tutorial.html" class="headerContentMenuItem">anime</a>
             </div>
         </div>
     </header>
     <main class="main">
-        <div class="main_content">
-            <div class="main_post_content">
-                <!-- pencarian halaman utama -->
-                <div class="post_content_search">
-                    <input type="text" class="input_search" id="inputSearch" onkeyup="searchFunction()" placeholder="Cari ...">
+        <div class="mainContent">
+            <!-- main content post -->
+            <div class="mainContentPost">
+                <!-- main content post search -->
+                <div class="mainContentPostSearch">
+                    <input type="text" class="postSearchInput" id="postSearchInput" onkeyup="searchFunction()" placeholder="Cari ...">
                 </div>
-                <div class="post_content_list">
-                    <!-- daftar halaman utama -->
-                    <ul class="content_list" id="contentList">
-                        <li class="content_list_items">
-                            <a href="/asset/content/test.html" class="link_list_items">
+                
+                <!-- main content post article -->
+                <div class="mainContentPostArticle">
+                    <ul class="mainContentPostArticleList" id="mainContentPostArticleList">
+                        <li class="mainContentPostArticleItem">
+                            <a href="/asset/content/test.html" class="mainContentPostArticleItemLink">
                                 pengenalan bahasa pemrograman C++
                             </a>
-                            <p class="preview_list_items">
+                            <p class="mainContentPostArticleItemPreview">
                                 Lorem ipsum dolor sit amet consectetur 
                                 adipisicing elit. Explicabo, doloremque!
                                 adipisicing elit. Explicabo, doloremque!
                             </p>
                         </li>
-                        <li class="content_list_items">
-                            <a href="/asset/content/test.html" class="link_list_items">Teat</a>
-                            <p class="preview_list_items">
+                        <li class="mainContentPostArticleItem">
+                            <a href="/asset/content/test.html" class="mainContentPostArticleItemLink">
+                                pengenalan bahasa pemrograman C++
+                            </a>
+                            <p class="mainContentPostArticleItemPreview">
                                 Lorem ipsum dolor sit amet consectetur 
                                 adipisicing elit. Explicabo, doloremque!
                                 adipisicing elit. Explicabo, doloremque!
                             </p>
                         </li>
-                        <li class="content_list_items">
-                            <a href="/asset/content/test.html" class="link_list_items">Teat</a>
-                            <p class="preview_list_items">
+                        <li class="mainContentPostArticleItem">
+                            <a href="/asset/content/test.html" class="mainContentPostArticleItemLink">
+                                pengenalan bahasa pemrograman C++
+                            </a>
+                            <p class="mainContentPostArticleItemPreview">
                                 Lorem ipsum dolor sit amet consectetur 
                                 adipisicing elit. Explicabo, doloremque!
                                 adipisicing elit. Explicabo, doloremque!
                             </p>
                         </li>
-                        <li class="content_list_items">
-                            <a href="/asset/content/test.html" class="link_list_items">Teat</a>
-                            <p class="preview_list_items">
+                        <li class="mainContentPostArticleItem">
+                            <a href="/asset/content/test.html" class="mainContentPostArticleItemLink">
+                                pengenalan bahasa pemrograman C++
+                            </a>
+                            <p class="mainContentPostArticleItemPreview">
                                 Lorem ipsum dolor sit amet consectetur 
                                 adipisicing elit. Explicabo, doloremque!
                                 adipisicing elit. Explicabo, doloremque!
                             </p>
                         </li>
-                        <li class="content_list_items">
-                            <a href="/asset/content/test.html" class="link_list_items">Teat</a>
-                            <p class="preview_list_items">
+                        <li class="mainContentPostArticleItem">
+                            <a href="/asset/content/test.html" class="mainContentPostArticleItemLink">
+                                pengenalan bahasa pemrograman C++
+                            </a>
+                            <p class="mainContentPostArticleItemPreview">
                                 Lorem ipsum dolor sit amet consectetur 
                                 adipisicing elit. Explicabo, doloremque!
                                 adipisicing elit. Explicabo, doloremque!
                             </p>
                         </li>
                         
+
+
+
+
                     </ul>
-                    <!-- akhir daftar halaman utama -->
                 </div>
+                <!-- end main content post article -->
             </div>
-            <div class="main_sidebar_content">
-                <div class="sidebar_content_populer">
+            <div class="mainContentSidebar">
+                <div class="mainContentSidebarRelated">
                     <!-- daftar halaman populer -->
-                    <ul class="content_populer_list">
-                        <h2 class="populer_list_title">artikel terkait</h2>
-                        <li class="populer_list_items"><a href="#">1. tutorial c++ bahasa indonesia</a></li>
-                        <li class="populer_list_items"><a href="#">2. proyek c++ sederhana</a></li>
-                        <li class="populer_list_items"><a href="#">3. kontribusi pada pengembangan website</a></li>
+                    <ul class="mainContentSidebarRelatedList">
+                        <h2 class="mainContentSidebarRelatedTitle">artikel terkait</h2>
+                        <li class="mainContentSidebarRelatedItem"><a href="#">1. tutorial c++ bahasa indonesia</a></li>
+                        <li class="mainContentSidebarRelatedItem"><a href="#">2. proyek c++ sederhana</a></li>
+                        <li class="mainContentSidebarRelatedItem"><a href="#">3. kontribusi pada pengembangan website</a></li>
                     </ul>
                 </div>
                 <!-- Daftar Label Halaman -->
-                <div class="sidebar_content_label">
-                    <h2 class="content_label_title">label</h2>
-                    <a href="#" class="content_label_items">C++</a>
-                    <a href="#" class="content_label_items">Html</a>
-                    <a href="#" class="content_label_items">Ubuntu</a>
-                    <a href="#" class="content_label_items">Android</a>
+                <div class="mainContentSidebarOther">
+                    <h2 class="mainContentSidebarOtherTitle">Lainnya</h2>
+                    <a href="#" class="mainContentSidebarOtherItem">kalculator</a>
+                    <a href="#" class="mainContentSidebarOtherItem">notes</a>
+                    <a href="#" class="mainContentSidebarOtherItem">generate password</a>
                 </div>
             </div>
         </div>
     </main>
     <footer class="footer">
-        <div class="footer_content">
-            <div class="footer_about">
-                <h2 class="footer_about_title">tentang website</h2>
-                <p class="footer_about_description">
+        <!-- footer content -->
+        <div class="footerContent">
+            <!-- footer content event -->
+            <div class="footerContentEvent">
+                <h2 class="footerContentEventTitle">event</h2>
+                <p class="footerContentEventDescription">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                     Laudantium laboriosam ipsa excepturi dicta asperiores.
                 </p>
+                <a href="#" class="footerContentEventLink">lihat acara</a>
             </div>
-            <div class="footer_contact">
-                <h2 class="footer_contact_title">hubungi penulis</h2>
-                <ul class="footer_contact_list">
-
-                    <li class="contact_list">Whatsapp : <a href="#" class="contact_list_items">Rizki</a></li>
-                    <li class="contact_list">Email : <a href="#" class="contact_list_items">Rizki</a></li>
-                    <li class="contact_list">Github : <a href="https://github.com/oldaring" class="contact_list_items">Oldaring</a></li>
+            <!-- footer content contact -->
+            <div class="footerContentContact">
+                <h2 class="footerContentContactTitle">kontak</h2>
+                <ul class="footerContentContactList">
+                    <li class="footerContentContactListItem">Whatsapp : <a href="https://github.com/oldaring" class="footerContentContactListItemLink">Rizki</a></li>
+                    <li class="footerContentContactListItem">Email    : <a href="https://github.com/oldaring" class="footerContentContactListItemLink">Rizki</a></li>
+                    <li class="footerContentContactListItem">Github   : <a href="https://github.com/oldaring" class="footerContentContactListItemLink">Oldaring</a></li>
                 </ul>
             </div>
-            <div class="footer_others">
-                <h2 class="footer_others_title">Lainnya</h2>
-                <ul class="footer_others_list">
-                    <li class="others_list"><a href="/pages/kebijakan_privasi.html" class="others_list_items">Kebijakan Privasi</a></li>
-                    <li class="others_list"><a href="/pages/Referensi_situs.html" class="others_list_items">Referensi Situs</a></li>
+            <!-- footer content referensi -->
+            <div class="footerContentReferensi">
+                <h2 class="footerContentReferensiTitle">Referensi</h2>
+                <ul class="footerContentReferensiList">
+                    <li class="footerContentReferensiListItem"><a href="/pages/kebijakan_privasi.html" class="footerContentReferensiListItemLink">Kebijakan Privasi</a></li>
+                    <li class="footerContentReferensiListItem"><a href="/pages/Referensi_situs.html" class="footerContentReferensiListItemLink">Referensi Situs</a></li>
                 </ul>
             </div>
         </div>
-        <div class="footer_copyright">
-            <span class="footer_copyright_items">
+        <!-- footer copyright -->
+        <div class="footerCopyright">
+            <span class="footerCopyrightItem">
                 © 2025 OLDaring. All rights Reserved.
             </span>
         </div>
-        <div class="footer_back_to_top">
-            <a href="#" class="footer_back_to_top_items">
+        <!-- footer back to top -->
+        <div class="footerBackToTop">
+            <a href="#" class="footerBackToTopItem">
                 back to top
             </a>
         </div>
