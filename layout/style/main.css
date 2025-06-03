@@ -27,13 +27,11 @@ a:hover {
 
 .headerContentTitle {
     font-size: 32px;
-    font-weight: 900;
     margin: 0 0 10px 0;
 }
 
 .headerContentMenuItem {
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 16px;
     margin-right: 10px;
 }
 
@@ -66,7 +64,7 @@ a:hover {
 }
 
 .mainContentPostArticleItemLink {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -82,24 +80,24 @@ a:hover {
 }
 
 .mainContentSidebarRelatedTitle {
-    font-size: 16px;
+    font-size: 18px;
     margin: 0 0 10px 0;
     padding: 0;
 }
 
 .mainContentSidebarRelatedItem {
-    font-size: 14px;
+    font-size: 16px;
     margin: 5px 0;
 }
 
 .mainContentSidebarOtherTitle {
-    font-size: 16px;
+    font-size: 18px;
     margin: 20px 0 10px 0;
     padding: 0;
 }
 
 .mainContentSidebarOtherItem {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 /* Footer */
@@ -113,12 +111,12 @@ a:hover {
 .footerContentEventTitle,
 .footerContentContactTitle,
 .footerContentReferensiTitle {
-    font-size: 16px;    
+    font-size: 18px;    
     margin: 0;
 }
 
 .footerContentEventDescription {
-    font-size: 14px;
+    font-size: 16px;
     margin: 18px 0 0 0;
 }
 
@@ -126,7 +124,7 @@ a:hover {
 .footerContentContactListItem,
 .footerContentReferensiListItem,
 .footerContentReferensiListItemLink {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .footerContentContactList,
@@ -136,14 +134,14 @@ a:hover {
 }
 
 .footerCopyright {
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
     margin-top: 50px;
 }
 
 .footerBackToTop {
     background-color: white;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     text-transform: capitalize;
     position: fixed;
