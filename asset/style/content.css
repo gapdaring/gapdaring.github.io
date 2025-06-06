@@ -16,18 +16,10 @@
 }
 
 .post-content-list {
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-    gap: 10px;
-    font-size: 18px;
+    list-style: decimal;
+    font-size: 14px;
 }
 
-.post-content-list a {
-    background-color: aqua;
-    padding: 10px;
-}
-
-.post-content-list a:hover {
-    color: black;
+.post-content-list-item {
+    margin-bottom: 10px;
 }
