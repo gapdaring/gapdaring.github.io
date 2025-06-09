@@ -1,0 +1,25 @@
+.post-content-title {
+    font-size: 24px;
+    margin-top: 0;
+}
+.post-content-date {
+    font-size: 12px;
+}
+.post-content-paragraf {
+    font-size: 14px;
+}
+.post-content-sub-title-1 {
+    font-size: 18px;
+}
+.post-content-sub-title-2 {
+    font-size: 14px;
+}
+
+.post-content-list {
+    list-style: decimal;
+    font-size: 14px;
+}
+
+.post-content-list-item {
+    margin-bottom: 10px;
+}
